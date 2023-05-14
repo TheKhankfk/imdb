@@ -1,0 +1,107 @@
+
+/* Set the background color of the body */
+body{
+    background: #121212;
+    }
+    
+    /* Style the search bar container */
+    #search-bar {
+    margin-left: 5vw;
+    display:flex;
+    align-items: center;
+    width: 60%;
+    }
+    
+    /* Style the IMDB title */
+    #search-bar h1{
+    font-size: 23px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f4c519;
+    padding: 5px 8px 5px;
+    border-radius: 5px;
+    }
+
+    #search-bar button h2{
+        margin-left: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    #search-bar h2 :hover{
+        cursor:default;
+        color: #f4c518;
+    }
+
+h2{
+color: #f4c518;
+
+}
+
+    
+    /* Style the search input */
+    #search-bar input{
+    margin-left: 20px;
+    height: 30px;
+    width: 800px;
+    border: 5px;
+    }
+
+
+    /* Style the movies grid */
+    #movies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    color: white;
+    width: 100%;
+    margin: 1rem 0 1rem 0vw ;
+    }
+    
+    /* Style the movie card */
+    .movie-card{
+    background: #1a1a1a;
+    border-radius: 10px;
+    width: 225px;
+    }
+    .movie-card :hover{
+        border-color: #f4c518;
+    }
+
+    
+    /* Style the movie poster */
+    .movie-card img{
+    width: 100%;
+    }
+    
+    /* Style the movie description */
+    .movie-card p{
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightgray;
+    }
+    
+    /* Style the movie link */
+    #movie-card a{
+    text-decoration:bold;
+    color: lightgray;
+    }
+    
+    /* Style the category title */
+    #category-title{
+    margin-left: 0vw;
+    color: #f4c518;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    /* Style the favorite button */
+    .favorite-btn{
+    font-weight: bold;
+    }
+    .favorite-btn :hover{
+        color: goldenrod;
+    }
+
+    #search-bar span :hover{
+
+     color: blue ;
+     cursor: pointer;
+    }
