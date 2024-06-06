@@ -1,4 +1,4 @@
 # imdb
- imdb clone skill test
+ imdb clone 
  
  link:  https://thekhankfk.github.io/imdb-st/
